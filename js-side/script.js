@@ -133,12 +133,12 @@ function showMenu(){
     if(opened == false){
         menu.style.display = "none";
         burger.src = originalImg;
+        console.log("no")
     }else{
         menu.style.display = "inline-block";
         burger.src = changeImg;
+        console.log("yes")
     }
-
-
 
     //to make sure the menu doesnt stay opened when the window is resized:)
     window.addEventListener('resize', function(event) {
