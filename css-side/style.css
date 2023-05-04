@@ -609,6 +609,12 @@ footer{
     color:white;
   }
 
+  .traveler-img{
+    width: 5rem;
+    margin-top: 30px;
+    border-radius:50%;
+  }
+
   .btn-div{
     display: none;
   }
@@ -672,125 +678,3 @@ footer{
     display: block;
   }
 }
-
-/*
-@media (min-width: 2560px) {
-
-  .btn-div{
-    font-size: 35px;
-    margin-right: 40px;
-  }
-
-  .header-title{
-    font-size: 100px;
-  
-  }
-
-  #header-id{
-    height: 150px;
-  }
-
-  #bg-image{
-    height: 1200px;
-  }
-
-  .h-main{
-    margin-top: 120px;
-    font-size: 120px;
-  }
-
-  .p-pick{
-    margin-top: 130px;
-    font-size: 30px;
-  }
-  
-  #right-btn, #left-btn{
-    width: 60px;
-    height: 50px;
-    font-size: 30px;
-  }
-
-  .discover{
-    font-size: 40px;
-  }
-
-  .title{
-    font-size: 50px;
-  }
-
-  .desc{
-    font-size: 30px;
-  }
-
-  .mid-centered{
-    bottom: 32rem;
-    font-size: 30px;
-  }
-
-  .video-bg{
-    height: 550px;
-  }
-
-  .daynight{
-    font-size: 1vw;
-    margin-top: 30px;
-  }
-
-  .travel-title{
-    font-size: 50px;
-    top:25rem;
-  }
-
-  .travel-desc{
-    top:25rem;
-    font-size: 30px;
-  }
-
-  .input-type, .submit-type{
-    top:17em;
-  }
-
-  .profile-div{
-    height: 500px;
-  }
-
-  .txt{
-    font-size: 22px;
-  }
-
-  .name{
-    font-size: 30px;
-  }
-
-  .book{
-    width:200px;
-    height: 80px;
-    font-size: 25px;
-  }
-
-  .trip{
-    font-size: 60px;
-  }
-
-  .offers{
-    height: 600px;
-    width: 400px;
-  }
-
-  .huge{
-    font-size: 40px;
-  }
-  .small{
-    font-size:20px;
-  }
-  .inset-div{
-    top: -150px;
-  }
-
-  .arrow{
-    top: -200px;
-    left: 83%;
-    font-size: 30px;
-  }
-}
-*/
