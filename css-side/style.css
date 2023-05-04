@@ -129,7 +129,7 @@ header {
 
 #modalPg{
   width: fit-content;
-  height: 50%;
+  height: fit-content;
   background-color: lightgray;
   border-style: solid;
   border-color: dimgray;
@@ -605,6 +605,10 @@ footer{
 }
 
 @media (max-width:768px){
+
+  .pi{
+    font-size: 2.5vw;
+  }
 
   .travel-title{
     top: 5em;

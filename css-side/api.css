@@ -30,8 +30,42 @@ button{
     font-size: 1vw;
 }
 
-@media (max-width: 375px) {
+
+@media (max-width: 768px){
     .api-div{
+        font-size: 3vw;
+        height: max-content;
+    }
+
+    button{
+        width: 13vw;
+        height: 6vw;
+        font-size: 2vw;
+    }
+
+    .back{
+        width: 15vw;
+        height: 7.5vw;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .api-div{
+        font-size: 5vw;
         height: 60%;
     }
+
+    
+    button{
+        width: 12vw;
+        height: 5vw;
+        font-size: 2vw;
+    }
+
+    .back{
+        width: 20vw;
+        height: 10vw;
+    }
+
 }
