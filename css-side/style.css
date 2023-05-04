@@ -762,6 +762,11 @@ footer{
   .invisAnother{
     display: block;
   }
+
+  #titleOne, #titleTwo, #titleThree, #titleFour, #titleFive, #titleSix{
+    font-size: 3vw;
+    margin-bottom: 0;
+  }
 }
 
 
@@ -819,3 +824,4 @@ footer{
     width: fit-content;
   }
 }
+
