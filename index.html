@@ -19,7 +19,34 @@
 </head>
 <body>
     
+    
+
     <header id="header-id">
+
+        <nav>
+            <img onclick="showMenu()" class="burger-icon" src="source-img\burger.png">
+            
+            <div id="nav-div">
+
+                <div class="btn-div-modal">
+                    <a href="#header-id"><p class="pi">HOME</p></a>
+                </div>
+                <div class="btn-div-modal">
+                    <a href="#abt-id"><p class="pi">ABOUT US</p></a>
+                </div>
+                <div class="btn-div-modal">
+                    <a href="#services"><p class="pi">OUR SERVICES</p></a>
+                </div>
+                <div class="btn-div-modal">
+                    <a href="#tour-package-modal"><p class="pi">TOUR PACKAGE</p></a>
+                </div>
+                <div class="btn-div-modal">
+                    <a href="api.html"><p class="pi">API</p></a>
+                </div>
+
+            </div>
+            
+        </nav>
         
         <div class="title-wrapper">
             <a><p class="header-title">Tourism</p></a>
@@ -41,9 +68,13 @@
         </div>
     </header>
 
-    <div class="bg-wrap">
+    
+    
 
-        <img class="p-main" style="width: 15vw; height: 3vw;" src="source-img\14-white-grunge-brush-stroke-4.png">
+
+    <div class="bg-wrap">
+        <img id="bg-image" src="source-img\comingsoon-background-img.jpg">
+        <img class="p-bg" src="source-img\14-white-grunge-brush-stroke-4.png">
         <p class="p-main">From 199$/Person</p>
         <h1 id="h-id" class="h-main">Discover Australia</h1>
         <p class="p-pick">TRAVEL WITH UNIQUE EXPERIENCE</p>
@@ -55,14 +86,19 @@
         <button onclick="reverseRotate(),insertBg()" id="right-btn">
             →
         </button>
-<div class="image-container"><img id="bg-image" src="source-img\comingsoon-background-img.jpg"></div>
+        
         
         <img id="bg-second" src="source-img\Greece-2560x1300.jpg">
     </div>
+
+
+
+
+
     <div class="spacer"></div>
     <section id="abt-id" class="grid-container">
         <div class="grid-child">
-            <p style="margin-bottom: 0px; color:gray; font-size: 25px;">DISCOVER</p>
+            <p class="discover">DISCOVER</p>
             <p class="title" style="margin-bottom: 0px;">Our Hot Services</p>
             <p style="margin-top: 0px; color:rgb(0, 162, 255); font-size: 25px;">‿‿‿</p>
             <p class="desc">Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem.</p>
@@ -118,7 +154,7 @@
     
     <section style="height: 600px;" class="video-section">
         <img class="video-bg" src="source-img\tropical.jpg">
-        <div class="mid-centered">DISCOVER</div>
+        <div class="mid-centered" >DISCOVER</div>
         <div class="mid-centered" >‿‿‿</div>
         <div class="mid-centered" >Watch Our Video Tour</div>
         <iframe class="iframe" src="https://www.youtube.com/embed/qZ0_aa6RxvQ" title="4K River Kayaking - Birds Singing - Water Sounds - Paddling a Canoe Relaxing Nature Video - NO LOOP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -158,21 +194,21 @@
 
             <div class="second-card">
                 <img class="second-card-image" src="source-img\greece.jpg">
-                <p class="specify">Honeymoon</p>
+                <p class="specify" id="honey">Honeymoon</p>
                 <p class="card-title">$299/Person</p>
                 <p class="card-desc">Blue Beauty of Greece</p>
                 <p class="daynight">5 Days / 6 Nights</p>
             </div>
             <div class="second-card">
                 <img class="second-card-image" src="source-img\phuekt.jpg">
-                <p style="left: -35%" class="specify">Holiday</p>
+                <p class="specify">Holiday</p>
                 <p class="card-title">$178/Person</p>
                 <p class="card-desc">Nature of Phuket</p>
                 <p class="daynight">3 Days / 4 Nights</p>
             </div>
             <div class="second-card">
                 <img class="second-card-image" src="source-img\paris.jpg">
-                <p style="left: -35%" class="specify">Holiday</p>
+                <p class="specify">Holiday</p>
                 <p class="card-title">$1111/Person</p>
                 <p class="card-desc">World Tour of Paris</p>
                 <p class="daynight">7 Days / 8 Nights</p>
