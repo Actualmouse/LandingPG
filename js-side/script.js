@@ -121,18 +121,21 @@ function selectMail(){
 
 //decides whether to make display none or inline block based on the boolean it takes.
 let opened = false;
+var originalImg = document.getElementById("originalimg").src;
+var changeImg = document.getElementById("changed").src;
 
 function showMenu(){
     var menu = document.getElementById("nav-div");
-    
+    var burger = document.getElementById("originalimg");
+
     opened = !opened;
 
     if(opened == false){
         menu.style.display = "none";
-        
+        burger.src = originalImg;
     }else{
         menu.style.display = "inline-block";
-        
+        burger.src = changeImg;
     }
 
 
@@ -141,6 +144,7 @@ function showMenu(){
     window.addEventListener('resize', function(event) {
             menu.style.display = "none";
             opened = false;
+            burger.src = originalImg;
     }, true);
    
 }
