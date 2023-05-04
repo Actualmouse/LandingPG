@@ -1,0 +1,29 @@
+.api-div{
+    background-color: rgb(101, 101, 101);
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:white;
+    border-radius: 50px;
+}
+
+html {
+    background-color: black;
+}
+
+button{
+    background-color: aqua;
+    border-radius: 10px;
+    color: black;
+}
+
+@media (max-width: 375px) {
+
+    .api-div{
+        height: 60%;
+    }
+}

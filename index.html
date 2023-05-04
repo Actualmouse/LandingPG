@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:title" content="Tourist landing page"/>
+    <meta property="og:description" content="Tourist landing page"/>
+    <meta property="og:url" content="URL to your page"/>
+
+    <meta name="description" content="Tourist landing page"/>
+    <meta name="keywords" content="Tourist"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css-side\style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist landing page</title>
+</head>
+<body>
+    
+    <header id="header-id">
+        
+        <div class="title-wrapper">
+            <a><p class="header-title">Tourism</p></a>
+        </div>
+        <div class="btn-div">
+            <a href="#header-id"><p>HOME</p></a>
+        </div>
+        <div class="btn-div">
+            <a href="#abt-id"><p>ABOUT US</p></a>
+        </div>
+        <div class="btn-div">
+            <a href="#services"><p>OUR SERVICES</p></a>
+        </div>
+        <div class="btn-div">
+            <a href="#tour-package"><p>TOUR PACKAGE</p></a>
+        </div>
+        <div class="btn-div">
+            <a href="api.html"><p>API</p></a>
+        </div>
+    </header>
+
+    <div class="bg-wrap">
+
+        <img class="p-main" style="width: 15vw; height: 3vw;" src="source-img\14-white-grunge-brush-stroke-4.png">
+        <p class="p-main">From 199$/Person</p>
+        <h1 id="h-id" class="h-main">Discover Australia</h1>
+        <p class="p-pick">TRAVEL WITH UNIQUE EXPERIENCE</p>
+
+        <button onclick="rotate(),insertBg()" id="left-btn">
+            ←
+        </button>
+        
+        <button onclick="reverseRotate(),insertBg()" id="right-btn">
+            →
+        </button>
+<div class="image-container"><img id="bg-image" src="source-img\comingsoon-background-img.jpg"></div>
+        
+        <img id="bg-second" src="source-img\Greece-2560x1300.jpg">
+    </div>
+    <div class="spacer"></div>
+    <section id="abt-id" class="grid-container">
+        <div class="grid-child">
+            <p style="margin-bottom: 0px; color:gray; font-size: 25px;">DISCOVER</p>
+            <p class="title" style="margin-bottom: 0px;">Our Hot Services</p>
+            <p style="margin-top: 0px; color:rgb(0, 162, 255); font-size: 25px;">‿‿‿</p>
+            <p class="desc">Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem.</p>
+        </div>
+        
+    
+        <div id="elemDiv" class="grid-child" onclick="reply_click(this.id),openModal(),reloadContent()">
+            <img id="card-image" src="source-img\plane.jpg">
+            <p class="title" id="titleOne"></p>
+            <p class="desc" id="descOne"></p>
+        </div>
+        
+        <div id="elemDivOne" class="grid-child" onclick="reply_click(this.id),openModal(),reloadContent()">
+            <img id="card-image" src="source-img\never_gonna_give_you_up.jpg">
+            <p class="title" id="titleTwo"></p>
+            <p class="desc" id="descTwo"></p>
+        </div>
+        <div id="elemDivTwo" class="grid-child" onclick="reply_click(this.id),openModal(),reloadContent()">
+            <img id="card-image" src="source-img\family-friendly-beach-tips.jpg">
+            <p class="title" id="titleThree"></p>
+            <p class="desc" id="descThree"></p>
+        </div>
+        <div class="grid-child"></div>
+        <div id="elemDivThree" class="grid-child" onclick="reply_click(this.id),openModal(),reloadContent()">
+            <img id="card-image" src="source-img\cruise.jpg">
+            <p class="title" id="titleFour"></p>
+            <p class="desc" id="descFour"></p>
+        </div>
+        <div id="elemDivFour" class="grid-child" onclick="reply_click(this.id),openModal(),reloadContent()">
+            <img id="card-image" src="source-img\campout-fire.jpg">
+            <p class="title" id="titleFive"></p>
+            <p class="desc" id="descFive"></p>
+        </div>
+        <div id="elemDivFive" class="grid-child" onclick="reply_click(this.id),openModal(),reloadContent()">
+            <img id="card-image" src="source-img\crprt.jpg">
+            <p class="title" id="titleSix"></p>
+            <p class="desc" id="descSix"></p>
+        </div>
+    </section>
+<div class="spacer-two"></div>
+    <div id="modalPg">
+        <div class="modal-div">
+            <img id="modal-image" src="source-img\plane.jpg">
+        </div>
+
+        <div class="txt-dv">
+            <p id="modal-title"></p>
+            <p id="modal-desc"></p>
+
+            <button id="modal-close" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+    
+    <section style="height: 600px;" class="video-section">
+        <img class="video-bg" src="source-img\tropical.jpg">
+        <div class="mid-centered">DISCOVER</div>
+        <div class="mid-centered" >‿‿‿</div>
+        <div class="mid-centered" >Watch Our Video Tour</div>
+        <iframe class="iframe" src="https://www.youtube.com/embed/qZ0_aa6RxvQ" title="4K River Kayaking - Birds Singing - Water Sounds - Paddling a Canoe Relaxing Nature Video - NO LOOP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    <section style="margin-top: 0px;" id="services">
+        <div class="service-tab">
+
+            <div class="centerify">
+                <img class="small-img" src="source-img\star.png">
+                <p>120,859</p>
+                <p>HAPPY TRAVELERS</p>
+            </div>
+            <div class="centerify">
+                <img class="small-img" src="source-img\tour-guide.png">
+                <p>2594</p>
+                <p>SATISFIED TOURS</p>
+            </div>
+            <div class="centerify">
+                <img class="small-img" src="source-img\flight.png">
+                <p>854</p>
+                <p>DESTINATIONS</p>
+            </div>
+            <div class="centerify">
+                <img class="small-img" src="source-img\hotel.png">
+                <p>978</p>
+                <p>HOTELS & RESORTS</p>
+            </div>
+            
+        </div>
+        <div style="text-align: center;">
+            <p style="margin-bottom: 0px; color:gray; font-size: 25px;">WE OFFER</p>
+            <p class="title" style="margin-bottom: 0px;">Popular Tour Package</p>
+            <p style="margin-top: 0px; margin-bottom: 100px; color:rgb(0, 162, 255); font-size: 25px;">‿‿‿</p>
+        </div>
+
+        <div class="second-card-div">
+
+            <div class="second-card">
+                <img class="second-card-image" src="source-img\greece.jpg">
+                <p class="specify">Honeymoon</p>
+                <p class="card-title">$299/Person</p>
+                <p class="card-desc">Blue Beauty of Greece</p>
+                <p class="daynight">5 Days / 6 Nights</p>
+            </div>
+            <div class="second-card">
+                <img class="second-card-image" src="source-img\phuekt.jpg">
+                <p style="left: -35%" class="specify">Holiday</p>
+                <p class="card-title">$178/Person</p>
+                <p class="card-desc">Nature of Phuket</p>
+                <p class="daynight">3 Days / 4 Nights</p>
+            </div>
+            <div class="second-card">
+                <img class="second-card-image" src="source-img\paris.jpg">
+                <p style="left: -35%" class="specify">Holiday</p>
+                <p class="card-title">$1111/Person</p>
+                <p class="card-desc">World Tour of Paris</p>
+                <p class="daynight">7 Days / 8 Nights</p>
+            </div>
+
+            
+        </div>
+        <div style="margin-top: 100px;"></div>
+
+        
+    </section>
+    <div>
+        
+        <p class="travel-title">Get 10% Off on Your Next Travel</p>
+        <p class="travel-desc">Maximum discount 1000$ per person</p>
+        
+        <form>
+            <input id="mail" class="input-type" type="email" placeholder="Enter your email">
+            <input onclick="return selectMail()" class="submit-type" type="submit" value="Subscribe">
+        </form>
+        
+        <img class="mail-img" src="source-img\surf.jpg">
+    </div>
+    
+    <div>
+        <div style="text-align: center;">
+            <p style="margin-bottom: 0px; color:gray; font-size: 25px;">Our Smiles</p>
+            <p class="title" style="margin-bottom: 0px;">Happy Travelers</p>
+            <p style="margin-top: 0px; margin-bottom: 100px; color:rgb(0, 162, 255); font-size: 25px;">‿‿‿</p>
+        </div>
+
+        <div class="profile-div-wrapper">
+            <div class="profile-div">
+                <img class="traveler-img" src="source-img\profile_1.jpg">
+                <p>Ribeca Singh</p>
+                <p class="txt">Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem.</p>
+                <img class="quotation" src="source-img\quotation.png">
+            </div>
+            <div class="profile-div">
+                <img class="traveler-img" src="source-img\profile_2.jpg">
+                <p>Jimmy dean</p>
+                <p class="txt">Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem.</p>
+                <img class="quotation" src="source-img\quotation.png">
+            </div>
+            <div class="profile-div">
+                <img class="traveler-img" src="source-img\profile_3.jpg">
+                <p>Rick astley</p>
+                <p class="txt">Never gonna give you up
+                    Never gonna let you down
+                    Never gonna run around and desert you.
+                </p>
+                <img class="quotation" src="source-img\quotation.png">
+            </div>
+        </div>
+    </div>
+
+    <div style="text-align: center;">
+        <p class="trip">Ready to plan your trip?</p>
+        <button class="book">BOOK NOW</button>
+        <img class="mounts" src="source-img\mount.png">
+    </div>
+    <section id="tour-package">
+        <div style="text-align: center;">
+            <p style="margin-bottom: 0px; color:gray; font-size: 25px;">Destination</p>
+            <p class="title" style="margin-bottom: 0px;">Popular Tourism Countries</p>
+            <p style="margin-top: 0px; margin-bottom: 100px; color:rgb(0, 162, 255); font-size: 25px;">‿‿‿</p>
+        </div>
+
+
+        <div class="offer-div">
+
+            <div class="shadow">
+                <img class="offers" src="source-img\thailand.jpg">
+                <div class="inset-div">
+                    <p class="huge">Thailand</p>
+                    <p class="small">$900 - $1900</p>
+                </div>
+                <button class="arrow">→</button>
+                
+            </div>
+            <div>
+                <img class="offers" src="source-img\pisa.jpg">
+                <div class="inset-div">
+                    <p class="huge">Italy</p>
+                    <p class="small">$700 - $2000</p>
+                </div>
+                <button class="arrow">→</button>
+            </div>
+            <div>
+                <img class="offers" src="source-img\indonesia.jpg">
+                <div class="inset-div">
+                    <p class="huge">Indonesia</p>
+                    <p class="small">$300 - $1100</p>
+                </div>
+                <button class="arrow">→</button>
+            </div>
+            <div>
+                <img class="offers" style="object-position: 50% 10%;" src="source-img\singapore.jpg">
+                <div class="inset-div">
+                    <p class="huge">Singapore</p>
+                    <p class="small">$1900 - $2700</p>
+                </div>
+                <button class="arrow">→</button>
+            </div>
+        </div>
+    </section>
+
+    <div style="background-color: black;">
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.503263566056!2d44.762271926623114!3d41.7096579759428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40447332ce83ce27%3A0x88f10503a3a86e1d!2sIlia%20State%20University!5e0!3m2!1sen!2sge!4v1683064462171!5m2!1sen!2sge" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer style="background-color:#141418;">
+        <div style=" display: flex; justify-content: space-around; color:white;">
+            <div style="display: flex; justify-content: space-evenly; width: 40vw; ">
+                <div > 
+                    <p class="title-footer">Quick Links</p>
+                    <p class="grayify">Home</p>
+                    <p class="grayify">About Company</p>
+                    <p class="grayify">Testimonials</p>
+                    <p class="grayify">Infrastructure</p>
+                </div>
+                <div>
+                    <p class="title-footer">Support</p>
+                    <p class="grayify">Get started</p>
+                    <p class="grayify">Lorem</p>
+                    <p class="grayify">Help</p>
+                    <p class="grayify">Ipsum</p>
+                </div>
+                <div>
+                    <p class="title-footer">Address</p>
+                    <p class="grayify">14, 1 Ellis Bridge ST.</p>
+                    <p class="grayify">Auckland 3500 Australia</p>
+                    <p class="grayify">+1234567890  </p>
+                    <p class="grayify">contactus@demo.com</p>
+                </div>
+            </div>
+            <div>
+                <p class="title-footer">Subscribe to our newsletter</p>
+                <div style="display: flex;">
+                    <input id="mail" class="mail-footer" type="email" placeholder="Enter your email">
+                    <input onclick="return selectMail()" class="submit-footer" type="submit" value="▣">
+                </div>
+            </div>  
+            
+        
+
+        </div>
+
+            <p style="margin-bottom: 0; padding: 20px 0 20px 0; color: white; text-align: center; border-top: 1px solid #656565;">Tourism©all rights reserved</p>
+
+        </div>
+
+    </footer>
+    <script src="js-side\script.js"></script>
+</body>
+</html>
