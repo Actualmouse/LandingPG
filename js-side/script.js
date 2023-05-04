@@ -1,6 +1,6 @@
 const oneCard = {title:"FLIGHT BOOKING", description:"1 Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem."};
-const twoCard = {title:"HOTEL/RESORT BOOKING", description:"2 Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem."};
-const threeCard = {title:"FAMILY TRIP PLANNER", description:"3 Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem."};
+const twoCard = {title:"HOTEL BOOKING", description:"2 Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem."};
+const threeCard = {title:"TRIP PLANNER", description:"3 Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem."};
 const fourCard = {title:"CRUISE TOUR", description:"4 Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem."};
 const fiveCard = {title:"FIRE CAMP", description:"5 Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem."};
 const sixCard = {title:"CORPORATE HOLIDAYS", description:"6 Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem."};

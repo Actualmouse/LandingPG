@@ -128,7 +128,7 @@ header {
 }
 
 #modalPg{
-  width: 50%;
+  width: fit-content;
   height: 50%;
   background-color: lightgray;
   border-style: solid;
@@ -139,13 +139,13 @@ header {
   left:50%;
   display: none;
   transform: translate(-50%, -50%);
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 #modal-image{
-   width: 30vw;
+   width: 20vw;
 }
 
 .modal-div{
@@ -576,6 +576,11 @@ footer{
   font-size: 1.5vw;
 }
 
+.title, .desc{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 @media (max-width: 1440px){
   .offer-div{
     display: flex;
@@ -585,24 +590,68 @@ footer{
     margin-right: 100px;
   
   }
+
+  .title{
+    font-size: 2vw;
+  }
+
+  .desc{
+    font-size: 1vw;
+  }
 }
 
-@media(max-width:425px){
-  .profile-div-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-    text-align: center;
-  }
-
-  .profile-div{
-    width: fit-content;
-  }
+.lower{
+  display: flex;
 }
 
 @media (max-width:768px){
+
+  .travel-title{
+    top: 5em;
+    font-size: 4.5vw;
+  }
+
+  .travel-desc{
+    top:7em;
+    font-size: 3vw;
+  }
+
+  .p-main{
+    font-size: 2vw;
+  }
+
+  .p-bg{
+    width: 20vw;
+    height: 2vw;
+  }
+
+  .p-pick{
+    font-size: 2vw;
+  }
+
+  .discover{
+    font-size: 4vw;
+  }
+
+ .title{
+    font-size:4vw;
+  }
+
+  .desc{
+    font-size: 1.9vw;
+    margin: 0 0 0 0;
+  }
+
+  .lower{
+    justify-content: center;
+  }
+
+  .title-footer{
+    font-size: 5vw;
+  }
+
   .footer-div{
+    font-size: 4vw;
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -617,6 +666,37 @@ footer{
 
   .btn-div{
     display: none;
+  }
+
+  .second-card-image{
+    width: 40vw;
+  }
+
+  .card-title{
+    font-size: 3.5vw;
+  }
+
+  .card-desc{
+    font-size: 4vw;
+  }
+
+  .daynight{
+    font-size: 3vw;
+  }
+
+  .second-card{
+    width: 40vw;
+    height: 55vw;
+  }
+
+  .specify{
+    right: 9em;
+    font-size: 3vw;
+  }
+
+  #honey{
+    right: 7em;
+    font-size: 3vw;
   }
 
   .second-card-div{
@@ -668,6 +748,7 @@ footer{
 
   #card-image{
     height: 80%;
+    margin-bottom: 0;
   }
 
   .invisible{
@@ -676,5 +757,61 @@ footer{
 
   .invisAnother{
     display: block;
+  }
+}
+
+
+@media(max-width:425px){
+  .profile-div-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+  }
+
+  .grid-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .invisible{
+    display: none;
+  }
+
+  #card-image{
+    width: 40vw;
+    height: 20vw;
+  }
+
+  #make{
+    display: none;
+  }
+
+  #abt-id{
+    grid-template-columns: 2fr;
+  }
+
+  
+
+  .desc{
+    font-size: 4vw;
+  }
+
+  #descOne, #descTwo, #descThree, #descFour, #descFive, #descSix{
+    font-size: 3vw;
+    margin-bottom: 0;
+  }
+
+  #titleOne, #titleTwo, #titleThree, #titleFour, #titleFive, #titleSix{
+    font-size: 4vw;
+    margin-bottom: 0;
+  }
+
+
+  .profile-div{
+    width: fit-content;
   }
 }
