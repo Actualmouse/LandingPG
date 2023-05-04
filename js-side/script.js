@@ -119,6 +119,28 @@ function selectMail(){
 
 
 
-  
+//decides whether to make display none or inline block based on the boolean it takes.
+let opened = false;
 
-  
+function showMenu(){
+    var menu = document.getElementById("nav-div");
+    
+    opened = !opened;
+
+    if(opened == false){
+        menu.style.display = "none";
+        
+    }else{
+        menu.style.display = "inline-block";
+        
+    }
+
+
+
+    //to make sure the menu doesnt stay opened when the window is resized:)
+    window.addEventListener('resize', function(event) {
+            menu.style.display = "none";
+            opened = false;
+    }, true);
+   
+}
