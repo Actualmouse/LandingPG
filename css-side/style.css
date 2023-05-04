@@ -39,7 +39,8 @@ html{
 
 .grid-container{
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr 2fr;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+
 }
 
 .grid-child{
@@ -103,7 +104,7 @@ header {
 
 .btn-div{
   margin-right: 1vw;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
 .title{
@@ -275,7 +276,7 @@ header {
 }
 
 .card-title{
-  margin-top:40px;
+  margin-top:5vw;
   margin-bottom: 0px;
   color: gray;
   font-size: 1.5vw;
@@ -414,7 +415,7 @@ input::placeholder{
   top: 35vw;
   z-index: 1;
   color: white;
-  font-size: 50px;
+  font-size: 5vw;
 }
 
 .book{
@@ -439,6 +440,7 @@ input::placeholder{
   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
   
 }
+
 
 .offer-div{
   display: flex;
@@ -500,7 +502,7 @@ footer{
 }
 
 .mail-footer{
-  height: 5vh;
+  height: 5vw;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   border: 0 0 0 0;
@@ -511,7 +513,7 @@ footer{
 .submit-footer{
   margin: 1.5px 0 0 0;
   width: 5vw;
-  height: 5vh;
+  height: 5vw;
   border-radius: 0px 5px 5px 0;
   border-style: none;
   background: linear-gradient(353deg, rgb(45, 142, 253) 0%, rgb(45, 253, 191) 70%);
@@ -521,6 +523,12 @@ footer{
   margin-bottom: 0px; 
   color:gray; 
   font-size: 1vw;
+}
+
+.footer-div{
+  display: flex; 
+  justify-content: space-around; 
+  color:white;
 }
 
 .btn-div-modal{
@@ -560,9 +568,72 @@ footer{
   border-width: 0.1vw;
 }
 
+.invisAnother{
+  display: none;
+}
+
+.footer-div{
+  font-size: 1.5vw;
+}
+
+@media (max-width: 1440px){
+  .offer-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  
+  }
+}
+
+@media(max-width:425px){
+  .profile-div-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+  }
+
+  .profile-div{
+    width: fit-content;
+  }
+}
+
 @media (max-width:768px){
+  .footer-div{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    color:white;
+  }
+
   .btn-div{
     display: none;
+  }
+
+  .second-card-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  .service-tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    padding-bottom: 50px;
+    box-shadow: 0 4px 2px -2px rgb(183, 183, 183);
+  }
+
+  .iframe{
+    width: 300px;
+    height: 200px;
   }
 
   .header-title{
@@ -584,4 +655,142 @@ footer{
     display: block;
     width: 5vw;
   }
+
+  .grid-container{
+    grid-template-columns: 2fr 2fr;
+  }
+
+  #card-image{
+    height: 80%;
+  }
+
+  .invisible{
+    display: none;
+  }
+
+  .invisAnother{
+    display: block;
+  }
 }
+
+/*
+@media (min-width: 2560px) {
+
+  .btn-div{
+    font-size: 35px;
+    margin-right: 40px;
+  }
+
+  .header-title{
+    font-size: 100px;
+  
+  }
+
+  #header-id{
+    height: 150px;
+  }
+
+  #bg-image{
+    height: 1200px;
+  }
+
+  .h-main{
+    margin-top: 120px;
+    font-size: 120px;
+  }
+
+  .p-pick{
+    margin-top: 130px;
+    font-size: 30px;
+  }
+  
+  #right-btn, #left-btn{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;
+  }
+
+  .discover{
+    font-size: 40px;
+  }
+
+  .title{
+    font-size: 50px;
+  }
+
+  .desc{
+    font-size: 30px;
+  }
+
+  .mid-centered{
+    bottom: 32rem;
+    font-size: 30px;
+  }
+
+  .video-bg{
+    height: 550px;
+  }
+
+  .daynight{
+    font-size: 1vw;
+    margin-top: 30px;
+  }
+
+  .travel-title{
+    font-size: 50px;
+    top:25rem;
+  }
+
+  .travel-desc{
+    top:25rem;
+    font-size: 30px;
+  }
+
+  .input-type, .submit-type{
+    top:17em;
+  }
+
+  .profile-div{
+    height: 500px;
+  }
+
+  .txt{
+    font-size: 22px;
+  }
+
+  .name{
+    font-size: 30px;
+  }
+
+  .book{
+    width:200px;
+    height: 80px;
+    font-size: 25px;
+  }
+
+  .trip{
+    font-size: 60px;
+  }
+
+  .offers{
+    height: 600px;
+    width: 400px;
+  }
+
+  .huge{
+    font-size: 40px;
+  }
+  .small{
+    font-size:20px;
+  }
+  .inset-div{
+    top: -150px;
+  }
+
+  .arrow{
+    top: -200px;
+    left: 83%;
+    font-size: 30px;
+  }
+}
+*/
