@@ -767,6 +767,10 @@ footer{
     font-size: 3vw;
     margin-bottom: 0;
   }
+  
+  .trip{
+    color: #2DFDBF;
+  }
 }
 
 
@@ -802,8 +806,6 @@ footer{
   #abt-id{
     grid-template-columns: 2fr;
   }
-
-  
 
   .desc{
     font-size: 4vw;
