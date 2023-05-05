@@ -53,7 +53,7 @@ button{
 
     .api-div{
         font-size: 5vw;
-        height: 60%;
+        height: max-content;
     }
 
     
